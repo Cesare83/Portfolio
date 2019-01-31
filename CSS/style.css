@@ -11,42 +11,27 @@
   --secondary-color: #f7b733;
   --neutral-color: #dfdce3;
   --effects-color: #fc4a1a;
-  --hover-color-on: #ffaf1a;
-  --hover-color-off-links: #ffffff;
-  --hover-color-off-submit: #000000;
-  --animation-color-start: #edc655;
-  --animation-color-middle: #fcffad;
-  --animation-color-end: #f76414;
   --submit-button-background-color: #ffffff;
   --footer-background-color: #dfdce3;
   --footer-text-color: #000000;
 
   /*hover transitions*/
-  --hover-transition-duration: 1s;
+  --hover-transition-duration: 0.3s;
 
   /*margins/padding:*/
   --general-margins-padding: 5%;
 }
 
-
-
     /*Hover effects*/
-a:link, a:visited, input:link, input:visited,  {
-  color: var(--hover-color-off-links);
+.link-span:hover {
+  color: var(--secondary-color);
   transition-duration: var(--hover-transition-duration);
 }
 
-a:hover, a:focus, a:active, input:hover, input:focus, input:active, {
-  color: var(--hover-color-on);
-  transition-duration: var(--hover-transition-duration);
-}
-
-.project-link-button:hover, .proect-link-button:focus {
+.project-link-button:hover {
   background-color: var(--effects-color);
   transition-duration: var(--hover-transition-duration);
 }
-
-
     /*Fonts*/
 body {
   font-family: 'Nunito', sans-serif;
@@ -141,17 +126,27 @@ header {
   width: auto;
 }
 
-.internal-link {
+.navigation-link {
   display: flex;
   height: 100%;
   max-width: 500px;
 }
 
-.internal-link-container {
+.navigation-link-container {
+  text-decoration: none;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: 0px;
+}
+
+.internal-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-span {
+  background-color: inherit;
 }
 
 .header-bottom {
@@ -526,7 +521,7 @@ header {
   padding-top: var(--general-margins-padding);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 
 }
 
