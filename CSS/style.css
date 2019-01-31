@@ -28,7 +28,7 @@
   transition-duration: var(--hover-transition-duration);
 }
 
-.project-link-button:hover {
+.project-link-button:hover, .submit-button:hover {
   background-color: var(--effects-color);
   transition-duration: var(--hover-transition-duration);
 }
@@ -547,7 +547,7 @@ header {
   display: flex;
 }
 
-.project-link-button {
+.project-link-button, .submit-button {
   border: none;
   background-color: var(--secondary-color);
   color: var(--text-color-on-primary-secondary-colors);
@@ -608,12 +608,9 @@ header {
   grid-template-columns: 50% 50%;
 }
 
-#email-adress:link, #email-adress:visited, #skype-adress:link, #skype-adress:visited{
+#skype-adress, #email-adress {
+  text-decoration: none;
   color: var(--text-color-base);
-}
-
-#email-adress:hover, #email-adress:focus, #email-adress:active, #skype-adress:hover, #skype-adress:focus, #skype-adress:active {
-  color: var(--hover-color-on);
 }
 
 .contact-form{
@@ -634,18 +631,6 @@ label {
 
 input {
   margin-bottom: 2%;
-}
-
-input, textarea {
-  border: 1px solid #000000;
-  border-radius: 4px;
-}
-
-#submit {
-  background-color: var(--submit-button-background-color);
-  margin-left: auto;
-  margin-right: 5%;
-  width: 100px;
 }
 
     /*Footer*/
