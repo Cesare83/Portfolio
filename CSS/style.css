@@ -585,7 +585,7 @@ header {
 
 .table-title, .table-entry {
   text-align: center;
-  background-color: var(--secondary-color);
+  background-color: var(--neutral-color);
 }
 
     /*Contact page*/
