@@ -19,6 +19,9 @@
   --hover-transition-duration: 0.3s;
 
   /*margins/padding:*/
+  --pages-margin: 5vh 5vw 15vh 5vw;
+  --pages-top-margin: 5vh;
+  --pages-bottom-margin: 15vh;
   --general-margins-padding: 5%;
 }
 
@@ -163,17 +166,18 @@ header {
   width: 90vmin;
   max-width: 600px;
   max-height: 600px;
-  margin-top: var(--general-margins-padding);
   margin-left: auto;
   margin-right: auto;
+  margin-top: var(--pages-top-margin);
+  margin-bottom: var(--pages-bottom-margin);
   grid-template-columns: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
   grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
 }
 
 .middle-image-container-home {
+  margin: auto;
   grid-column: 2/8;
   grid-row: 2/8;
-  display: flex;
 }
 
 #author-image {
@@ -512,13 +516,12 @@ header {
 
     /*Work page*/
 .middle-work {
+  margin: var(--pages-margin);
   display: flex;
 }
 
 .middle-container-work {
-  max-width: 900px;
   margin: auto;
-  padding-top: var(--general-margins-padding);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -561,6 +564,7 @@ header {
 
     /*About page*/
 .middle-about {
+  margin: var(--pages-margin);
   display: flex;
 }
 
@@ -590,6 +594,7 @@ header {
 
     /*Contact page*/
 .middle-contact {
+  margin: var(--pages-margin);
   display: flex;
 }
 
@@ -635,7 +640,6 @@ input {
 
     /*Footer*/
 footer {
-  margin-top: 12%;
   display: grid;
   grid-template-rows: 50% 50%;
   height: 100%;
