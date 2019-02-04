@@ -545,8 +545,7 @@ header {
   display: flex;
 }
 
-.project-link-button,
-.submit-button {
+.standard-button {
   border: none;
   background-color: var(--secondary-color);
   color: var(--text-color-on-primary-secondary-colors);
@@ -556,6 +555,7 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-family: inherit;
 }
 
 .middle-about {                                             /* About page */
