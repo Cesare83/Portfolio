@@ -30,6 +30,19 @@
   transition-duration: var(--hover-transition-duration);
 }
 
+.standard-button {
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--text-color-on-primary-secondary-colors);
+  margin: auto;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: inherit;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--text-base-color);
@@ -88,7 +101,7 @@ input {
 
 .page {                                                       /* Page-Layouts */
   display: grid;
-  grid-template-rows: 210px auto 100px;
+  grid-template-rows: 240px auto 100px;
 }
 
 header {
@@ -115,26 +128,15 @@ header {
 }
 
 .favicon-container {
-  display: grid;
-  grid-template-columns: 70px auto;
-}
-
-.favicon-image {
-  height: 100%;
-  width: 100%;
-}
-
-.favicon-text {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 2px;
-  padding-left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 #favicon {
-  max-height: 100%;
-  height: 100%;
-  width: auto;
+  height: 70px;
+  width: 70px;
+  margin-right: 5px;
 }
 
 .navigation-link {
@@ -549,19 +551,6 @@ header {
 
 .project-button {
   display: flex;
-}
-
-.standard-button {
-  border: none;
-  background-color: var(--secondary-color);
-  color: var(--text-color-on-primary-secondary-colors);
-  margin: auto;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: inherit;
 }
 
 .middle-about {                                             /* About page */
