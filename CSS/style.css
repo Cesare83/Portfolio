@@ -142,7 +142,7 @@ header {
 
 .navigation-link-container {
   text-decoration: none;
-  margin: auto auto auto 0;
+  margin: auto 0 auto auto;
 }
 
 .internal-link {
