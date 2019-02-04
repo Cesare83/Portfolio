@@ -517,6 +517,9 @@ header {
 }
 
 .middle-container-work {
+  padding: var(--general-margins-padding);
+  width: 100%;
+  max-width: 900px;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
