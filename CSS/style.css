@@ -31,15 +31,18 @@
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--text-base-color);
 }
 
 h1 {
+  font-size: 40px;
+}
+
+h2 {
   font-size: 30px;
 }
 
-h2,
 a,
 p,
 th,
