@@ -133,9 +133,13 @@ header {
   justify-content: flex-start;
 }
 
+.favicon-text {
+  font-size: 25px;
+}
+
 #favicon {
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
   margin-right: 5px;
 }
 
@@ -153,6 +157,7 @@ header {
 .internal-link {
   text-decoration: none;
   color: inherit;
+  font-size: 25px;
 }
 
 .link-span {
@@ -663,10 +668,13 @@ footer {                                                    /* Footer */
   }
 
   h1 {
-    font-size: 27px;
+    font-size: 30px;
   }
 
-  h2,
+  h2 {
+    font-size: 18px;
+  }
+
   a,
   p,
   th,
@@ -676,35 +684,31 @@ footer {                                                    /* Footer */
     font-size: 17px;
   }
 
+  .standard-button {
+    padding: 12px 26px;
+    font-size: 17px;
+  }
+
+  .favicon-text {
+    font-size: 17px;
+  }
+
+  #favicon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .internal-link {
+    font-size: 17px;
+  }
+
   .page {
     display: grid;
     grid-template-rows: 180px auto 80px;
   }
-
-  .header-top {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-
-  .favicon-container {
-    display: grid;
-    grid-template-columns: 70px auto;
-  }
-
-  .favicon-image {
-    height: 100%;
-    width: 100%;
-    background-color: inherit;
-  }
-
-  .favicon-text {
-    display: none;
-  }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .middle-container-work {
     grid-template-columns: 1fr;
   }
@@ -713,7 +717,10 @@ footer {                                                    /* Footer */
     font-size: 20px;
   }
 
-  h2,
+  h2 {
+    font-size: 12px;
+  }
+
   a,
   p,
   th,
@@ -721,6 +728,24 @@ footer {                                                    /* Footer */
   textarea,
   input {
     font-size: 11px;
+  }
+
+  .standard-button {
+    padding: 10px 20px;
+    font-size: 11px;
+  }
+
+  .favicon-text {
+    font-size: 13px;
+  }
+
+  #favicon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .internal-link {
+    font-size: 13px;
   }
 
   .page {
@@ -733,20 +758,5 @@ footer {                                                    /* Footer */
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr;
-  }
-
-  .favicon-container {
-    display: grid;
-    grid-template-columns: 70px auto;
-  }
-
-  .favicon-image {
-    height: 100%;
-    width: 100%;
-    background-color: inherit;
-  }
-
-  .favicon-text {
-    display: none;
   }
 }
