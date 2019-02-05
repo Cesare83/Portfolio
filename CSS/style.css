@@ -24,8 +24,7 @@
   transition-duration: var(--hover-transition-duration);
 }
 
-.project-link-button:hover,
-.submit-button:hover {
+.standard-button:hover {
   background-color: var(--effects-color);
   transition-duration: var(--hover-transition-duration);
 }
