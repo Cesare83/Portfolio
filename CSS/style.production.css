@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {                                               /* VARIABLES */                            /* Colors */                   /* hover transitions */                    /* margins-padding */
@@ -9,19 +9,13 @@
 .link-span:hover {                                     /* Hover effects */
   color: #f7b733;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
-.project-link-button:hover {
+.standard-button:hover {
   background-color: #fc4a1a;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-}
-
-.submit-button:hover {
-  background-color: #fc4a1a;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .standard-button {
@@ -39,7 +33,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: undefined;
+  color: #000;
 }
 
 h1 {
@@ -159,11 +153,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .favicon-text {
@@ -213,7 +207,7 @@ header {
   width: 90vmin;
   max-width: 600px;
   max-height: 600px;
-  margin: 5vh auto 15vh auto;
+  margin: 5vh auto 15vh;
   -ms-grid-columns: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
   grid-template-columns: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
   -ms-grid-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
@@ -568,11 +562,11 @@ header {
   grid-column: 2/3;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .effect-matrix-3-4-2-3 {
@@ -584,11 +578,11 @@ header {
   grid-column: 2/3;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 .effect-matrix-4-5-2-3 {
@@ -600,11 +594,11 @@ header {
   grid-column: 2/3;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .effect-matrix-5-6-2-3 {
@@ -616,11 +610,11 @@ header {
   grid-column: 2/3;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 .effect-matrix-6-7-2-3 {
@@ -632,11 +626,11 @@ header {
   grid-column: 2/3;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .effect-matrix-7-8-2-3 {
@@ -648,11 +642,11 @@ header {
   grid-column: 2/3;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 .effect-matrix-2-3-3-4 {
@@ -664,11 +658,11 @@ header {
   grid-column: 3/4;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .effect-matrix-3-4-3-4 {
@@ -680,11 +674,11 @@ header {
   grid-column: 3/4;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .effect-matrix-4-5-3-4 {
@@ -696,11 +690,11 @@ header {
   grid-column: 3/4;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .effect-matrix-5-6-3-4 {
@@ -712,11 +706,11 @@ header {
   grid-column: 3/4;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .effect-matrix-6-7-3-4 {
@@ -728,11 +722,11 @@ header {
   grid-column: 3/4;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .effect-matrix-7-8-3-4 {
@@ -744,11 +738,11 @@ header {
   grid-column: 3/4;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .effect-matrix-2-3-4-5 {
@@ -760,11 +754,11 @@ header {
   grid-column: 4/5;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .effect-matrix-3-4-4-5 {
@@ -776,11 +770,11 @@ header {
   grid-column: 4/5;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 .effect-matrix-4-5-4-5 {
@@ -792,11 +786,11 @@ header {
   grid-column: 4/5;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .effect-matrix-5-6-4-5 {
@@ -808,11 +802,11 @@ header {
   grid-column: 4/5;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 .effect-matrix-6-7-4-5 {
@@ -824,11 +818,11 @@ header {
   grid-column: 4/5;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .effect-matrix-7-8-4-5 {
@@ -840,11 +834,11 @@ header {
   grid-column: 4/5;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 .effect-matrix-2-3-5-6 {
@@ -856,11 +850,11 @@ header {
   grid-column: 5/6;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 .effect-matrix-3-4-5-6 {
@@ -872,11 +866,11 @@ header {
   grid-column: 5/6;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .effect-matrix-4-5-5-6 {
@@ -888,11 +882,11 @@ header {
   grid-column: 5/6;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 .effect-matrix-5-6-5-6 {
@@ -904,11 +898,11 @@ header {
   grid-column: 5/6;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .effect-matrix-6-7-5-6 {
@@ -920,11 +914,11 @@ header {
   grid-column: 5/6;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 .effect-matrix-7-8-5-6 {
@@ -936,11 +930,11 @@ header {
   grid-column: 5/6;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .effect-matrix-2-3-6-7 {
@@ -952,11 +946,11 @@ header {
   grid-column: 6/7;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .effect-matrix-3-4-6-7 {
@@ -968,11 +962,11 @@ header {
   grid-column: 6/7;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .effect-matrix-4-5-6-7 {
@@ -984,11 +978,11 @@ header {
   grid-column: 6/7;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .effect-matrix-5-6-6-7 {
@@ -1000,11 +994,11 @@ header {
   grid-column: 6/7;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .effect-matrix-6-7-6-7 {
@@ -1016,11 +1010,11 @@ header {
   grid-column: 6/7;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .effect-matrix-7-8-6-7 {
@@ -1032,11 +1026,11 @@ header {
   grid-column: 6/7;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .effect-matrix-2-3-7-8 {
@@ -1048,11 +1042,11 @@ header {
   grid-column: 7/8;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 .effect-matrix-3-4-7-8 {
@@ -1064,11 +1058,11 @@ header {
   grid-column: 7/8;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .effect-matrix-4-5-7-8 {
@@ -1080,11 +1074,11 @@ header {
   grid-column: 7/8;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 .effect-matrix-5-6-7-8 {
@@ -1096,11 +1090,11 @@ header {
   grid-column: 7/8;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .effect-matrix-6-7-7-8 {
@@ -1112,11 +1106,11 @@ header {
   grid-column: 7/8;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 .effect-matrix-7-8-7-8 {
@@ -1128,15 +1122,15 @@ header {
   grid-column: 7/8;
   z-index: 1;
   -webkit-animation: show-up 1s;
-          animation: show-up 1s;
+  animation: show-up 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .middle-work {                                             /* Work page */
-  margin: 5vh 5vw 15vh 5vw;
+  margin: 5vh 5vw 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1202,7 +1196,7 @@ header {
 }
 
 .middle-about {                                             /* About page */
-  margin: 5vh 5vw 15vh 5vw;
+  margin: 5vh 5vw 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1327,7 +1321,7 @@ header {
 }
 
 .middle-contact {                                        /* Contact page */
-  margin: 5vh 5vw 15vh 5vw;
+  margin: 5vh 5vw 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
