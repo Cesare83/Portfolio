@@ -521,8 +521,31 @@ header {
   width: 40px;
 }
 
-#portfolio, #pokedex, #bud-spencer-movies, #to-do-app, #my-awesome-quiz-app {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url("../img/profilbild.jpg");
+#bud-spencer-movies {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/budspencermovies-min.png");
+
+}
+
+#to-do-app {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/todolist-min.png");
+}
+
+#my-awesome-quiz-app {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/myawesomequizapp-min.png");
+  background-position: center;
+}
+
+#pokedex {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/pokedex-min.png");
+  background-position: top;
+}
+
+#portfolio {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/portfolio-min.png");
+}
+
+#shockley {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/shockley-min.png");
 }
 
 /*---------------------------ABOUTPAGE----------------------------------------*/
