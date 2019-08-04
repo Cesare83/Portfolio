@@ -6,31 +6,32 @@
     <title>Portfolio | Cesare Marchesi</title>
     <link rel="icon" href="img/favicon-96x96.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="CSS/style.production.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
   </head>
 
   <body>
     <div class="page">
       <header>
         <div class="header-container">
-          <div class="header-top">
-            <div class="favicon-container">
-              <img id="favicon" src="img/favicon.png" alt="Favicon Cesare Marchesi">
-              <p class="favicon-text">Cesare Marchesi</p>
-            </div>
-            <div class="navigation-link">
-              <div class="navigation-link-container" role="menubar">
-                <a href="index.html" role="menuitem" title="Home Page" class="internal-link"><span class="link-span">Home</span></a>
-                <a href="work.html" role="menuitem" title="Work" class="internal-link"><span class="link-span">Work</span></a>
-                <a href="about.html" role="menuitem" title="More about me" class="internal-link"><span class="link-span">About</span></a>
-                <a href="contact.html" role="menuitem" title="Contact me" class="internal-link"><span class="link-span">Contact</span></a>
-              </div>
-            </div>
+          <div class="header-first-row">
+            <svg class="favicon" viewBox="0 0 1200 400" width="1200" height="400" stroke="#fff"  >
+              <circle cx="200" cy="200" r="180" fill="none" stroke-width="15"/>
+              <polyline points="255,95 95,95 95,256 255,255" fill="none" stroke-width="15"/>
+              <polyline points=" 305,305 305,145 145,145 145,305" fill="none" stroke-width="15"/>
+              <text x="570" y="176" font-family="Orbitron, sans-serif" fill="#fff" font-size="150px">esare</text>
+              <text x="570" y="350" font-family="Orbitron, sans-serif" fill="#fff" font-size="150px">archesi</text>
+              <polyline points="560,50 440,50 440,170 560,170" fill="none" stroke-width="15"/>
+              <polyline points=" 555,350 555,230 440,230 440,350" fill="none" stroke-width="15"/>
+            </svg>
           </div>
-          <div class="header-bottom">
-            <h1>Work</h1>
-            <h2>My projects from GitHub and CodePen</h2>
+          <div class="header-second-row">
+            <div class="navigation-link-container" role="menubar">
+              <a href="index.html" role="menuitem" title="Home Page" class="internal-link"><span class="link-span">Home</span></a>
+              <a href="work.html" role="menuitem" title="Work" class="internal-link"><span class="link-span">Work</span></a>
+              <a href="about.html" role="menuitem" title="More about me" class="internal-link"><span class="link-span">About</span></a>
+              <a href="contact.html" role="menuitem" title="Contact me" class="internal-link"><span class="link-span">Contact</span></a>
+            </div>
           </div>
         </div>
       </header>
@@ -38,82 +39,122 @@
       <div class="middle-work">
         <div class="middle-container-work">
 
-          <div class="project" id="portfolio-page">
+          <div class="project" id="bud-spencer-movies">
             <div class="project-title">
-              <h2>Portfolio Webpage</h2>
+              <h1>Bud Spencer Movies</h1>
             </div>
-            <div class="project-text">
-              <p>This is the website you are currently on. It is written and designed without templates. Here you can find the links to all my GitHub projects. Enjoy!</p>
-            </div>
-            <div class="project-hashtags">
-              <p>#HTML #CSS #grid #flexbox #responsivness #animations #transitions</p>
-            </div>
-            <div class="project-button">
-              <a target="_blank" href="https://github.com/Cesare83/portfolio" class="standard-button">to GitHub-Pages</a>
+            <div class="tags"><p>#css #whatever #something #else #mongo #MERN #hallo<p></div>
+            <div class="work-links">
+              <a href="https://github.com/Cesare83" target="_blank">
+                <svg class="code" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <polyline points="70,60 30,100 70,140"/>
+                  <polyline points="130,60 170,100 130,140"/>
+                </svg></a>
+              <a href="https://codepen.io/Cesare83/" target="_blank">
+                <svg class="magnifing-glass" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <circle class="border" cx="85" cy="85" r="50"/>
+                  <line x1="120" y1="120" x2="140" y2="140" stroke-width="6"/>
+                  <line x1="130" y1="130" x2="160" y2="160" stroke-width="11"/>
+                </svg>
+              </a>
             </div>
           </div>
 
-          <div class="project">
+          <div class="project" id="to-do-app">
             <div class="project-title">
-              <h2>Pokedex</h2>
+              <h1>To do app</h1>
             </div>
-            <div class="project-text">
-              <p>A Pokedex for always knowing the Pokemons you are approching! This project belongs to the Full Stack Web Development course I am currently taking.</p>
-            </div>
-            <div class="project-hashtags">
-              <p>#JS #IIFE #HTML #CSS #mobilefirst #grid #flexbox #responsivness</p>
-            </div>
-            <div class="project-button">
-              <a target="_blank" href="https://cesare83.github.io/Pokedex/" class="standard-button">to GitHub-Pages</a>
+            <div class="tags"><p>#css #whatever #something #else #mongo #MERN #hallo<p></div>
+            <div class="work-links">
+              <a href="https://github.com/Cesare83" target="_blank">
+                <svg class="code" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <polyline points="70,60 30,100 70,140"/>
+                  <polyline points="130,60 170,100 130,140"/>
+                </svg></a>
+              <a href="https://codepen.io/Cesare83/" target="_blank">
+                <svg class="magnifing-glass" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <circle class="border" cx="85" cy="85" r="50"/>
+                  <line x1="120" y1="120" x2="140" y2="140" stroke-width="6"/>
+                  <line x1="130" y1="130" x2="160" y2="160" stroke-width="11"/>
+                </svg>
+              </a>
             </div>
           </div>
 
-          <div class="project">
+          <div class="project" id="my-awesome-quiz-app">
             <div class="project-title">
-              <h2>Tribute Page</h2>
+              <h1>My awesome quiz app</h1>
             </div>
-            <div class="project-text">
-              <p>A tribute page to William Shockley, the father of transistors. This project belongs to the resonsive web design certification of FreeCodeCamp and it is the first website I have ever written.</p>
-            </div>
-            <div class="project-hashtags">
-              <p>#HTML #CSS #grid #flexbox #responsivness #FreeCodeCamp</p>
-            </div>
-            <div class="project-button">
-              <a target="_blank" href="https://codepen.io/Cesare83/pen/XyOpzG" class="standard-button">to CodePen</a>
+            <div class="tags"><p>#css #whatever #something #else #mongo #MERN #hallo<p></div>
+            <div class="work-links">
+              <a href="https://github.com/Cesare83" target="_blank">
+                <svg class="code" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <polyline points="70,60 30,100 70,140"/>
+                  <polyline points="130,60 170,100 130,140"/>
+                </svg></a>
+              <a href="https://codepen.io/Cesare83/" target="_blank">
+                <svg class="magnifing-glass" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <circle class="border" cx="85" cy="85" r="50"/>
+                  <line x1="120" y1="120" x2="140" y2="140" stroke-width="6"/>
+                  <line x1="130" y1="130" x2="160" y2="160" stroke-width="11"/>
+                </svg>
+              </a>
             </div>
           </div>
 
-          <div class="project">
+          <div class="project" id="pokedex">
             <div class="project-title">
-              <h2>To be added</h2>
+              <h1>Pokedex</h1>
             </div>
-            <div class="project-text">
-              <p>coming soon</p>
-            </div>
-            <div class="project-hashtags">
-              <p></p>
-            </div>
-            <div class="project-button">
-              <a target="_blank" href="https://github.com/Cesare83/website-portfolio" class="standard-button">to GitHub</a>
+            <div class="tags"><p>#css #whatever #something #else #mongo #MERN #hallo<p></div>
+            <div class="work-links">
+              <a href="https://github.com/Cesare83" target="_blank">
+                <svg class="code" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <polyline points="70,60 30,100 70,140"/>
+                  <polyline points="130,60 170,100 130,140"/>
+                </svg></a>
+              <a href="https://codepen.io/Cesare83/" target="_blank">
+                <svg class="magnifing-glass" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <circle class="border" cx="85" cy="85" r="50"/>
+                  <line x1="120" y1="120" x2="140" y2="140" stroke-width="6"/>
+                  <line x1="130" y1="130" x2="160" y2="160" stroke-width="11"/>
+                </svg>
+              </a>
             </div>
           </div>
 
-
-      </div>
-      </div>
-
-      <footer>
-        <div class="footer-text">
-          <p>Find me on:</p>
-        </div>
-        <div class="footer-img-container">
-          <div class="footer-img">
-            <a href="https://github.com/Cesare83" target="_blank"><img id="github-logo" src="img/iconfinder_github.png" alt="Github Logo"></a>
-            <a href="https://www.facebook.com/cesare.marchesi.7" target="_blank"><img id="facebook-logo" src="img/iconfinder_facebook.png" alt="Facebook Logo"></a>
-            <a href="https://codepen.io/Cesare83/" target="_blank"><img id="codepen-logo" src="img/iconfinder_codepen.png" alt="Codepen Logo"></a>
+          <div class="project" id="portfolio">
+            <div class="project-title">
+              <h1>Portfolio</h1>
+            </div>
+            <div class="tags"><p>#css #whatever #something #else #mongo #MERN #hallo<p></div>
+            <div class="work-links">
+              <a href="https://github.com/Cesare83" target="_blank">
+                <svg class="code" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <polyline points="70,60 30,100 70,140"/>
+                  <polyline points="130,60 170,100 130,140"/>
+                </svg></a>
+              <a href="https://codepen.io/Cesare83/" target="_blank">
+                <svg class="magnifing-glass" viewBox="0 0 200 200" width="200" height="200" fill="#f7b733" stroke="#fff" stroke-width="10">
+                  <circle class="border" cx="100" cy="100" r="98" stroke-width="0"/>
+                  <circle class="border" cx="85" cy="85" r="50"/>
+                  <line x1="120" y1="120" x2="140" y2="140" stroke-width="6"/>
+                  <line x1="130" y1="130" x2="160" y2="160" stroke-width="11"/>
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
-      </footer>
+
     </div>
+
   </body>
 </html>
