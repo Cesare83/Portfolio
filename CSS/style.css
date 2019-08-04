@@ -21,7 +21,7 @@
 }
 
 /*--------------------------------HOVER EFFECTS-------------------------------*/
-.link-span:hover {
+.link-span:hover  {
   color: var(--secondary-color);
   transition-duration: var(--hover-transition-duration);
 }
@@ -522,30 +522,30 @@ header {
 }
 
 #bud-spencer-movies {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/budspencermovies-min.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/budspencermovies-min.png");
 
 }
 
 #to-do-app {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/todolist-min.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/todolist-min.png");
 }
 
 #my-awesome-quiz-app {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/myawesomequizapp-min.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/myawesomequizapp-min.png");
   background-position: center;
 }
 
 #pokedex {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/pokedex-min.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/pokedex-min.png");
   background-position: top;
 }
 
 #portfolio {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/portfolio-min.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/portfolio-min.png");
 }
 
 #shockley {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/shockley-min.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/shockley-min.png");
 }
 
 /*---------------------------ABOUTPAGE----------------------------------------*/
