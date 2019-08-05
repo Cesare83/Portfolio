@@ -95,7 +95,7 @@ input {
 .page {
   display: grid;
   height: 100vh;
-  grid-template-rows: auto  auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 header {
@@ -483,6 +483,7 @@ header {
   animation-delay: 0s;
 }
 
+
 /*---------------------------WORKPAGE-----------------------------------------*/
 .middle-work {
   margin: var(--pages-margin);
@@ -532,11 +533,16 @@ header {
 
 #my-awesome-quiz-app {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/myawesomequizapp-min.png");
-  background-position: center;
+  background-position: top;
 }
 
 #pokedex {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/pokedex-min.png");
+  background-position: top;
+}
+
+#svg-playground {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/svg-playground-min.png");
   background-position: top;
 }
 
@@ -551,7 +557,6 @@ header {
 /*---------------------------ABOUTPAGE----------------------------------------*/
 .middle-about {
   margin: var(--pages-margin);
-  display: flex;
 }
 
 .middle-container-about {
@@ -563,22 +568,20 @@ header {
   text-align: justify;
 }
 
-.middle-text-about,
-.table-about {
-  margin-bottom: var(--general-margins-padding);
+.skills-container {
+  display: flex;
+  max-width: 600px;
+  margin: 10vh auto 5vh auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.table-about {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr;
-  grid-template-rows: auto auto auto auto;
+.about-img {
+  margin: 20px;
+  height: 90px;
+  width: auto;
 }
 
-.table-title,
-.table-entry {
-  text-align: center;
-  background-color: var(--neutral-color);
-}
 
 /*---------------------------CONTACTPAGE--------------------------------------*/
 .middle-contact {
@@ -590,39 +593,12 @@ header {
   max-width: 900px;
   padding: var(--general-margins-padding);
   margin: auto;
-  display: grid;
-  grid-template-rows: 50% 50%;
-}
-
-.adress {
-  padding: 2%;
-  display: grid;
-  grid-template-columns: 50% 50%;
 }
 
 #skype-adress,
 #email-adress {
   text-decoration: none;
   color: var(--text-color-base);
-}
-
-.contact-form {
-  margin-top: var(--general-margins-padding);
-  padding: 2%;
-  background-color: var(--neutral-color);
-}
-
-#feedback-form {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
-}
-
-label {
-  padding-left: 2%;
-}
-
-input {
-  margin-bottom: 2%;
 }
 
 /*----------------------------------MEDIA QUERIES-----------------------------*/
@@ -667,6 +643,16 @@ input {
     margin: 2vh 0 2vh 0;
   }
 
+  .about-img {
+    margin: 15px;
+    height: 80px;
+    width: auto;
+  }
+
+  .skills-container {
+    max-width: 500px;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -704,5 +690,15 @@ input {
 
   .internal-link {
     font-size: 15px;
+  }
+
+  .about-img {
+    margin: 10px;
+    height: 60px;
+    width: auto;
+  }
+
+  .skills-container {
+    max-width: 300px;
   }
 }
