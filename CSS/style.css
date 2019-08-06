@@ -14,34 +14,25 @@
   --footer-background-color: #dfdce3;
   --footer-text-color: #000;
   --hover-transition-duration: 0.3s;                   /* hover transitions */
-  --pages-margin: 10vh 5vh 5vh 5vh;                    /* margins-padding */
+  --pages-margin: 5vh 5vh 5vh 5vh;                    /* margins-padding */
   --pages-top-margin: 5vh;
   --pages-bottom-margin: 15vh;
   --general-margins-padding: 5%;
 }
 
 /*--------------------------------HOVER EFFECTS-------------------------------*/
-.link-span:hover  {
+.link-span:hover {
   color: var(--secondary-color);
   transition-duration: var(--hover-transition-duration);
 }
 
-.standard-button:hover {
-  background-color: var(--effects-color);
+.code:hover, .magnifing-glass:hover {
+  fill: #fc4a1a;
   transition-duration: var(--hover-transition-duration);
 }
 
-.standard-button {
-  border: none;
-  background-color: var(--secondary-color);
-  color: var(--text-color-on-primary-secondary-colors);
-  margin: auto;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  font-family: inherit;
+.code, .magnifing-glass {
+  fill: var(--secondary-color); 
 }
 
 /*---------------------------------OVERALL FEATURES---------------------------*/
@@ -151,7 +142,6 @@ header {
 }
 
 #author-image {
-  margin: 5vh auto 5vh auto;
   max-width: 500px;
   max-height: 500px;
   height: 50vh;
@@ -493,7 +483,7 @@ header {
 .middle-container-work {
   width: 100%;
   max-width: 900px;
-  margin: auto;
+  margin: 5vh auto auto auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -561,7 +551,7 @@ header {
 
 .middle-container-about {
   max-width: 900px;
-  margin: auto;
+  margin: 5vh auto auto auto;
   padding: var(--general-margins-padding);
   display: grid;
   grid-template-rows: auto auto;
@@ -585,13 +575,12 @@ header {
 
 /*---------------------------CONTACTPAGE--------------------------------------*/
 .middle-contact {
-  display: flex;
+  display: grid;
   margin: var(--pages-margin);
 }
 
 .middle-contact-container {
   max-width: 900px;
-  padding: var(--general-margins-padding);
   margin: auto;
 }
 
@@ -621,10 +610,6 @@ header {
     font-size: 19px;
   }
 
-  .standard-button {
-    padding: 12px 26px;
-    font-size: 17px;
-  }
 
   #favicon {
     height: 10vh;
@@ -656,6 +641,7 @@ header {
 }
 
 @media only screen and (max-width: 500px) {
+
   .middle-container-work {
     grid-template-columns: 1fr;
   }
@@ -678,10 +664,6 @@ header {
     height: auto;
   }
 
-  .standard-button {
-    padding: 10px 20px;
-    font-size: 11px;
-  }
 
   .favicon {
     height: 10vh;
