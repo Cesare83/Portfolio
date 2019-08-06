@@ -95,7 +95,7 @@ input {
 .page {
   display: grid;
   height: 100vh;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: 25vh auto;
 }
 
 header {
@@ -496,11 +496,11 @@ header {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .project {
   min-height: 300px;
+  min-width: 300px;
   display: grid;
   grid-template-rows: 30% 50% 20%;
   margin: 5vh;
