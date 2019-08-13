@@ -32,7 +32,7 @@
 }
 
 .code, .magnifing-glass {
-  fill: var(--secondary-color); 
+  fill: var(--secondary-color);
 }
 
 /*---------------------------------OVERALL FEATURES---------------------------*/
@@ -46,11 +46,11 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 28px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 23px;
 }
 
 a,
@@ -90,7 +90,7 @@ input {
 }
 
 header {
-  margin-top: 7vh;
+  margin-top: 5vh;
   background-color: var(--primary-color);
   color: var(--text-color-on-primary-secondary-colors);
   padding: 2%;
@@ -130,12 +130,25 @@ header {
 /*---------------------------HOMEPAGE-----------------------------------------*/
 .middle-home {
   display: grid;
-  margin: var(--pages-margin);
+  max-width: 500px;
+  margin: 5vh auto auto auto;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto auto auto auto;
 }
 
+.middle-text-container-home {
+  z-index: -1;
+  margin: 5vh auto 5vh auto;
+  grid-column: 3/7;
+  grid-row: 1/2;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
 .middle-image-container-home {
+  z-index: -1;
   margin: auto;
   grid-column: 2/8;
   grid-row: 2/8;
@@ -148,6 +161,8 @@ header {
   width: auto;
   border-radius: 50%;
 }
+
+
 
 .effect-matrix-2-3-2-3 {
   grid-row: 2/3;
@@ -489,8 +504,8 @@ header {
 }
 
 .project {
-  min-height: 300px;
-  min-width: 300px;
+  min-height: 280px;
+  min-width: 280px;
   display: grid;
   grid-template-rows: 30% 50% 20%;
   margin: 5vh;
@@ -531,9 +546,15 @@ header {
   background-position: top;
 }
 
-#svg-playground {
+#codepen-playground {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/svg-playground-min.png");
   background-position: top;
+}
+
+#github-repositories {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("../img/github.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #portfolio {
@@ -598,7 +619,11 @@ header {
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 
   a,
@@ -642,12 +667,25 @@ header {
 
 @media only screen and (max-width: 500px) {
 
+  .page {
+    grid-template-rows: 22vh auto;
+  }
+
+  .middle-text-container-home {
+    margin: auto auto 5vh auto;
+    padding: 0 7% 0 7%;
+  }
+
   .middle-container-work {
     grid-template-columns: 1fr;
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
   }
 
   a,
