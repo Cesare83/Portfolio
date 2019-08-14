@@ -677,7 +677,7 @@ header {
   }
 
   .middle-container-work {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
   }
 
   h1 {
